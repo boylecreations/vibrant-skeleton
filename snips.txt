@@ -1,0 +1,5 @@
+        <p className="description">
+          Get started by editing <code>pages/index.js and stuff</code>
+        </p>
+
+        <br/><br/><br/><br/>

@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Header from '@components/Header'
-import Navbar from '@components/Navbar'
 import Hero from '@components/Hero'
+import Navbar from '@components/Navbar'
+import Testimonial from '@components/Testimonial'
 import Footer from '@components/Footer'
 
 
@@ -12,6 +13,8 @@ export default function Home() {
 
       </Navbar>
 
+      <Hero></Hero>
+
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
@@ -20,7 +23,7 @@ export default function Home() {
       <main>
         <Header title="" />
 
-        <Hero />
+        <Testimonial />
 
       </main>
 

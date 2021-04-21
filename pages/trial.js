@@ -4,12 +4,11 @@ import Navbar from '@components/Navbar'
 import Hero from '@components/Hero'
 import Footer from '@components/Footer'
 
-
 export default function Home() {
   return (
     <div className="site-container">
       <Navbar>
-
+        
       </Navbar>
 
       <Head>
@@ -18,7 +17,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="" />
+        <Header title="THIS IS THE TRIAL PAGE" />
 
         <Hero />
 

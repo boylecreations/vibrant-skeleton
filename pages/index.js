@@ -15,6 +15,7 @@ export default function Home() {
 
       <Hero></Hero>
 
+bacon
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
